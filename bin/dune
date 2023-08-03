@@ -1,0 +1,5 @@
+(executable
+ (public_name ocamldiff)
+ (name main)
+ (libraries ocamldiff core)
+ (preprocess (pps ppx_jane)))
